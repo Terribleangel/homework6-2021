@@ -167,11 +167,13 @@ header{
   }
   /*Requirement 15*/
   .nav_links {
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   /*Requirement 16*/
   .price {
-
+    align-items: flex-end;
   }
   /*Requirement 17*/
   .package {
@@ -181,9 +183,10 @@ header{
     flex-basis: 200px;
   }
   /*Requirement 18*/
-  .gallery{
+  .gallery, #gallery{
     display: none;
   }
+  
  
 }
 
