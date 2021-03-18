@@ -23,6 +23,8 @@ header{
 /*Requirement 3*/
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
